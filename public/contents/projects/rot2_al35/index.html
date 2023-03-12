@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bacterial Genomics: How do we evaluate tools that detect pathogen carriage in metagenomic data?</title>
+    <link rel="stylesheet" href="/styles/projects_style.css" />
+</head>
+<body>
+  
+  <nav>
+      <ul>
+      
+        <li><a href="/">Home</a></li>
+      
+        <li><a href="/projects/">Projects</a></li>
+      
+      </ul>
+    </nav>
+
+<header>
+    <div class="header">Bacterial Genomics: How do we evaluate tools that detect pathogen carriage in metagenomic data?</div>
+</header>
+
+  <main>
+    <p>This is my second rotation at the Sanger institute, under the <a href="https://www.sanger.ac.uk/programme/parasites-and-microbes/">Parasites and Microbes</a> programme. I was supervised by Ste Bentley and Vicky Carr.</p>
+<p>Metagenomics is a powerful technique in characterising the microbes present in a sample (like a nasal swab). However, analysing metagenomes is tricky because some microbes, like <em>Streptococcus pneumoniae</em>, are easily mistaken for others. I worked on a protocol to evaluate how accurate a tool is at detecting a specific pathogen. The protocol involves both simulated data (which we can completely control) and experimental data (which we can't really control, but it reflects reality)</p>
+<h2>Software</h2>
+<p>Check out the Nextflow pipelines I wrote for this rotation</p>
+<ul>
+<li><a href="https://github.com/Phuong-Le/metagenome_sim-nf">metagenome_sim-nf</a>: simulates a metagenome given a pool of fasta genome references.</li>
+<li><a href="https://github.com/Phuong-Le/bowtie2-nf">bowtie2-nf</a>: a pipeline that wraps bowtie2 alignment and read count summary.</li>
+<li><a href="https://github.com/Phuong-Le/kraken2-nf">kraken2-nf</a>: a pipeline that wraps the kraken2 taxonomic classification software.</li>
+</ul>
+<h2>Acknowledgements</h2>
+<p>Special thanks to Gerry Tonkin-Hill for the statistical method to simulate metagenomes. Thanks to Luis Gonzalez, Theresa Ochoa, Pablo Tsykayama and Hanson Blake for providing nasopharyngeal swab metagenomic samples.</p>
+
+  </main>
+
+<footer>
+    <a class="social-icon" href="mailto:al35@sanger.ac.uk">
+        <ion-icon name="mail-outline"></ion-icon>
+    </a>
+
+    <a class="social-icon" href="https://github.com/Phuong-Le">
+        <ion-icon name="logo-github"></ion-icon>
+    </a>
+
+    <a class="social-icon" href="https://twitter.com/le_anh_phuong">
+        <ion-icon name="logo-twitter"></ion-icon>
+    </a>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <p>&copy; 2023 Anh Phuong Le</p>
+
+</footer>
+    
+</body>
+</html>

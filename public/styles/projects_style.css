@@ -1,0 +1,84 @@
+body {
+    background-color: #0C111D;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 1.2em;
+    color: #8AA8A1;
+    text-align: justify;
+    width: 700px;
+    margin: auto;
+    }
+  
+.header {
+    color: #EE7B30;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+    
+h2 {
+  font-size: 1.5em;
+  font-family: "Lucida Console", "Courier New", monospace;
+}  
+
+
+a {
+  text-decoration: none;
+  color: #EE7B30;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  color: #EE7B30;
+}
+
+nav li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #8AA8A1
+}
+
+h1 {
+  font-size: 2em;
+  color:#EE7B30;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.profile_pic {
+  align-self: center;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  transition: all ease-in-out .2s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-icon {
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #8AA8A1;
+  text-decoration: none;
+}
