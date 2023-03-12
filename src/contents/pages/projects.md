@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 2
 ---
 
-Here are some projects that I have done 
+Check out some of my past and current projects
 
 {% for project in collections.projects %}
 - [{{ project.data.title }}]({{ project.url }})

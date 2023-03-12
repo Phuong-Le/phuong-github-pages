@@ -15,9 +15,9 @@ eleventyNavigation:
 <img src="contents/img/profile_pic.jpg" class="profile_pic" />
 
 </br>
-I'm a PhD student at the <a href="https://www.sanger.ac.uk/">Wellcome Sanger Institure</a> and <a href="https://www.cam.ac.uk/">University of Cambridge</a>. Previously, I was an undergraduate at the <a href="https://www.anu.edu.au/">Australian National University</a>. 
+I'm a PhD student at the <a href="https://www.sanger.ac.uk/">Wellcome Sanger Institure</a> and <a href="https://www.cam.ac.uk/">University of Cambridge</a>. Previously, I was an undergraduate at the <a href="https://www.anu.edu.au/">Australian National University</a>. Before that, I spent my first ~20 years in Viet Nam with my parents, my little sister and our old grumpy cat.
 
-I'm on my journey learning bioinformatics - an interdisciplinary field that uses statistics and computing to solve biological questions.
+I'm enjoying my journey learning bioinformatics - an interdisciplinary field that uses statistics and computing to solve biological questions.
 
 </div>
 
