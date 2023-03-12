@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve",
+    "start": "eleventy --serve --pathprefix 'phuong-github-pages'",
     "build": "env NODE_ENV=production npx eleventy --pathprefix 'phuong-github-pages'"
   },
   "keywords": [],

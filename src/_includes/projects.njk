@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="{{ '/styles/projects_style.css' }}" />
+    <link rel="stylesheet" href="{{ '/styles/projects_style.css' | url }}" />
 </head>
 <body>
   
   <nav>
       <ul>
       {% for item in nav.items %}
-        <li><a href="{{ item.url }}"{% if item.url === page.url %} aria-current="page" data-state="active" {% endif %}>{{ item.name }}</a></li>
+        <li><a href="{{ item.url | url }}"{% if item.url === page.url %} aria-current="page" data-state="active" {% endif %}>{{ item.name }}</a></li>
       {% endfor %}
       </ul>
     </nav>

@@ -10,5 +10,5 @@ eleventyNavigation:
 Check out some of my past and current projects
 
 {% for project in collections.projects %}
-- [{{ project.data.title }}]({{ project.url }})
+- [{{ project.data.title }}]({{ project.url | url }})
 {% endfor %}
