@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="/styles/style.css" />
 </head>
 <body>
-  <header>
-    <h1>{{ title }}</h1>
-  </header>
-
+  
   <nav>
       <ul>
       {% for item in nav.items %}
@@ -20,8 +17,32 @@
       </ul>
     </nav>
 
+<header>
+    <div class="header">{{ title }}</div>
+</header>
+
   <main>
     {{ content | safe }}
   </main>
+
+<footer>
+    <a class="social-icon" href="mailto:al35@sanger.ac.uk">
+        <ion-icon name="mail-outline"></ion-icon>
+    </a>
+
+    <a class="social-icon" href="https://github.com/Phuong-Le">
+        <ion-icon name="logo-github"></ion-icon>
+    </a>
+
+    <a class="social-icon" href="https://twitter.com/le_anh_phuong">
+        <ion-icon name="logo-twitter"></ion-icon>
+    </a>
+    
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <p>&copy; 2023 Anh Phuong Le</p>
+
+</footer>
+    
 </body>
 </html>
