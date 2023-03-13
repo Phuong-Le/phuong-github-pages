@@ -10,9 +10,6 @@ During the 11 weeks with Mutographs, I looked at the geographical differences in
 
 R packages I wrote for use in this rotation
 
-
-[test](https://github.com/Phuong-Le/mutationsR)
-
 - [MutationsR](https://github.com/Phuong-Le/mutationsR): works with mutations data in R, especially string representations of mutations.
 - [UnsupLearnR](https://github.com/Phuong-Le/UnsupLearnR): what a weird name, but it's a helper for unsupervised learning analyses like PCA and K-means (Most likely I will continue developing and maintaining it in the future)
 - [graphicsPLr](https://github.com/Phuong-Le/graphicsPLr): colour and shaped pickers when you're particularly lazy about choosing colours...
