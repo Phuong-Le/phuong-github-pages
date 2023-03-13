@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @media screen and (min-width: 600pt) {
   body {
     width: 600pt;
@@ -6,7 +8,7 @@
 
 body {
   background-color: #0C111D;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: 'Space Mono', monospace;
   font-size: 1.2em;
   color: #8AA8A1;
   text-align: justify;
@@ -15,9 +17,9 @@ body {
 
 .header {
   color: #8AA8A1;
-  font-size: 1.5em;
+  font-size: 2em;
   font-weight: bold;
-  font-family: cursive, "Lucida Handwriting";
+  font-family: 'Carattere', cursive;
 }
   
 
