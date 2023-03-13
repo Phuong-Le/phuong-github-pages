@@ -1,10 +1,15 @@
+@media screen and (min-width: 600pt) {
+  body {
+    width: 600pt;
+  }
+}
+
 body {
   background-color: #0C111D;
   font-family: "Lucida Console", "Courier New", monospace;
   font-size: 1.2em;
   color: #8AA8A1;
   text-align: justify;
-  width: 600px;
   margin: auto;
   }
 
@@ -48,9 +53,6 @@ nav a:hover {
 }
 
 .container {
-  text-align: justify;
-  width: 600px;
-  margin: auto;
   font-size: 1.5em;
 }
 
@@ -84,3 +86,4 @@ img {
   color: #8AA8A1;
   text-decoration: none;
 }
+
