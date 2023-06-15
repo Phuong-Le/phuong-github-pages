@@ -16,4 +16,4 @@ Check out the Nextflow pipelines I wrote for this rotation
 
 ## Acknowledgements
 
-Special thanks to Gerry Tonkin-Hill for the statistical method to simulate metagenomes. Thanks to Luis Gonzalez, Theresa Ochoa, Pablo Tsykayama and Hanson Blake for providing nasopharyngeal swab metagenomic samples.
+Special thanks to Gerry Tonkin-Hill for the statistical method to simulate metagenomes. Thanks to Luis Gonzalez, Theresa Ochoa, Pablo Tsukayama and Hanson Blake for providing nasopharyngeal swab metagenomic samples.

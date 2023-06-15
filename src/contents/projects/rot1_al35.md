@@ -4,7 +4,7 @@ title: "Cancer Genomics: How do the patterns of mutations vary in different coun
 
 This is my first rotation at the Sanger institute, under the <a href="https://www.sanger.ac.uk/programme/cancer-ageing-and-somatic-mutation/">Cancer, Aging and Somatic Mutations</a> programme. I was part of the <a href="https://www.mutographs.org/">Mutographs</a> team and supervised by Mike Stratton and Sarah Moody.
 
-During the 11 weeks with Mutographs, I looked at the geographical differences in mutation patterns in different cancers. 
+Our cells are exposed to many mutagens - some are extrinsic, such as UV light and tobacco smoke while some are intrinsic, like APOBEC, a substance our B cells use to mutate itself (to deal with pathogens). These mutagens could leave distinctive patterns on our mutation profiles - check out [the COSMIC mutational signatures](https://cancer.sanger.ac.uk/signatures/). This is particularly obvious in the context of cancer. During the 11 weeks with Mutographs, I looked at the geographical differences in mutation patterns in different cancers. 
 
 ## Software
 
